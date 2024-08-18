@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+  }
+
+  body {
+    background-image: url('backgroundimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+
+  #main {
+    margin-left: 120px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0;
+    }
+  }
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>EXPERIENCE</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">EXPERIENCE</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home" style="background-color: transparent;">
+    <h5 class="w3-subtitle">Welcome to my Personal Portfolio :)</h5>
+    <h2 class="w3-jumbo"><span class="w3-hide-small">Hey, </span>I am Haziel</h2>
+  </header>
+  
+  <div class="w3-container w3-center">
+    <img src="haziel.jpeg" alt="boy" class="w3-image" width="700" height="550">
+  </div>
+</div>
+
+
+
+
+
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
+    <h2 class="w3-text-light-white">Haziel de Oliveira</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hello! I'm a rising junior from Brazil, double majoring in Interactive Media and Psychology. With a passion for crafting compelling digital content, I've built a strong foundation in social media strategy, content creation, and community engagement.
+
+      As a Content Strategist at Student Era, I crafted digital content that effectively amplified voices and drove interaction across platforms. My experience also includes managing and growing online communities like CosmoPhysics, where my content consistently reached and engaged a broad audience. 
+      
+        <p>
+          <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        
+          <div class="w3-skill">
+            <img src="python.png" alt="Python Logo" class="w3-margin-right" style="width:40px;">
+            <p class="w3-wide">Python</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey" style="height:28px; width:95%"></div>
+            </div>
+          </div>
+          <br>
+        
+          <div class="w3-skill">
+            <img src="css.png" alt="CSS Logo" class="w3-margin-right" style="width:40px;">
+            <p class="w3-wide">CSS</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey" style="height:28px; width:95%"></div>
+            </div>
+          </div>
+          <br>
+        
+          <div class="w3-skill">
+            <img src="html.png" alt="HTML Logo" class="w3-margin-right" style="width:40px;">
+            <p class="w3-wide">HTML</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey" style="height:28px; width:85%"></div>
+            </div>
+          </div>
+          <br>
+        
+          <div class="w3-skill">
+            <img src="javascript.png" alt="JavaScript Logo" class="w3-margin-right" style="width:40px;">
+            <p class="w3-wide">JavaScript</p>
+            <div class="w3-white">
+              <div class="w3-dark-grey" style="height:28px; width:80%"></div>
+            </div>
+          </div>
+        </p>
+        
+      
+    
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <a href="https://drive.google.com/file/d/1ulnA9RXpg_QwV0S2IKNR9ukOOUPNe8l5/view?usp=sharing" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
+    </button>
+    
+  
+  <!-- Portfolio Section -->
+<div class="w3-padding-64 w3-content" id="photos" style="text-align: center;">
+  <h2 class="w3-text-light-grey">My projects</h2>
+  <hr style="width:200px; margin: 0 auto;" class="w3-opacity">
+</div>
+
+<!-- Grid for pricing tables -->
+<style>
+  .w3-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .w3-half {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-description {
+    margin-top: 10px;
+  }
+</style>
+
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">CosmoPhysics</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="cosmophysics.jpg" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>I am the founder of “CosmoPhysics,” an initiative dedicated to bridging the gap between science and society by fostering scientific literacy through engaging social media content. For this project, I am responsible for the entire content creation process, including researching, designing, and editing social media posts and videos. My role involves crafting visually compelling and informative content, managing the account, and actively engaging with a diverse audience to promote a deeper understanding of astronomy.</p>
+            <a href="https://www.instagram.com/cosmo_physics/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">Student Era Content</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="nyuad.jpg" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>For this project, I scripted, recorded, and edited an insightful interview with Victoria, a study away student, about her experience abroad in the UAE. My involvement spanned the entire production process, from crafting the interview questions to filming and editing the final video, ensuring a polished and engaging piece that provides valuable insights for students considering their own study abroad journey.</p>
+            <a href="https://drive.google.com/file/d/13ykbKd0IUW9jnyeYungtV_qFwN0PFvgH/view?usp=sharing" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">Describe the UAE</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="student.jpeg" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>In this project, I partnered with a colleague to interview NYUAD students, asking them to describe the UAE in one word. I was responsible for both recording and editing the video, ensuring a smooth and cohesive final product. The video captures a range of perspectives, highlighting the diversity of experiences and impressions students have of the UAE.</p>
+            <a href="https://drive.google.com/file/d/1a5xxcL39fIFL7b5JCM7-d1tR1m0NJ-pa/view?usp=sharing" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">Podcast</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="podcast.jpeg" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>In this episode, I handled the recording and editing of an inspiring podcast featuring Mohammed Muqbel, a recent graduate from NYU Abu Dhabi. The podcast explores Mohammed's journey of transitioning from Mechanical Engineering to Social Research and Public Policy, along with his involvement in education and leadership programs.</p>
+            <a href="https://www.studentsera.com/embracing-change-a-journey-of-self-discovery-and-impact-with-nyuad-student/" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="w3-container">
+  <div class="w3-half">
+    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+      <li class="w3-dark-grey w3-xlarge w3-padding-32">Behind the Counter</li>
+      <li class="w3-light-grey w3-padding-24">
+        <div class="project-content">
+          <img src="coffee.png" alt="Description of the image" style="width:70%; max-height:300px;">
+          <div class="project-description">
+            <p>The project "Behind the Counter" is designed to give the user an exclusive pass to uncover the backstage of Blacksmith, the neighborhood coffee haven. In this immersive experience, the video presents a further perspective, beyond a simple order. </p>
+            <a href="https://haziel2.github.io/Video-project/" target="_blank">
+              <button class="w3-button w3-white w3-padding-large w3-hover-black">Access</button>
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: haziel.soares@nyu.edu</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SUBMIT
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Thank you!<a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green"></a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
